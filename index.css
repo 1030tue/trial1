@@ -1,0 +1,63 @@
+
+.landscape {
+    height: 800px;
+    width: 1200px;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+h1 {
+text-transform: Uppercase;
+margin-bottom: .5em;
+font-family: 'Nanum Myeongjo', serif;
+font-size: 6rem;
+color: #E4E5E6; }
+
+
+
+body {
+font-family: 'Nanum Myeongjo', serif;
+}
+
+
+ul{
+ list-style-type: none;
+ margin: 0px;
+ padding: 0px;
+ overflow: hidden;
+ background-color: #D8C8B2;
+}
+
+li{
+ margin: 0px;
+ float: left;
+ padding: 10px;
+ font-family: 'Nanum Myeongjo', serif;
+}
+
+li a:hover{
+  margin: 0px;
+  padding: 10px;
+  background-color: #B82647;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 15px;
+}
